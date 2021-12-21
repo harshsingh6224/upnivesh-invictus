@@ -1,0 +1,453 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+}
+/*.......Top-Navbar........*/
+.topnav {
+    overflow: hidden;
+    background: #C4C4C4;
+    padding: 0 7%;
+}
+  
+.topnav a {
+    float: left;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+  background: #8E8E8E;
+    color: white;
+}
+/*......Search-Bar........*/
+.form {
+  position: relative;
+  margin: 30px -20px;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: #9ca3af
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 5px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+  padding-left: 7px
+}
+
+.left-pan i {
+  padding-left: 10px
+}
+
+.form-input {
+  height: 33px;
+  text-indent: 33px;
+  background: #E5E5E5;
+  border-radius: 40px;
+  border: 0;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none
+}
+/*............styles...........*/
+.main-tab {
+  padding: 0% 12%;
+}
+.main-tab p {
+  margin: 5% 10% 2% 10%;
+  font-weight: 600;
+  font-size: 36px;
+  /* line-height: 54px; */
+  color: #000000;
+}
+.startedButton {
+  background: #8E8E8E;
+    border-radius: 40px;
+    margin-left: 10%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    border: 0;
+    color: #fff;
+    padding: 7px 71px;
+}
+.entry-btns {
+  float: right;
+}
+.entry-btns .reg {
+  background: #8E8E8E;
+  border-radius: 30px;
+  color: #fff;
+}
+.infoButton {
+  margin: 2% 42%;
+  border: 2px solid #000;
+  border-radius: 40px;
+  background: #fff;
+  font-size: 17px;
+  line-height: 31px;
+  padding: 7px 45px;
+  color: #000;
+  font-weight: 600;
+}
+.chatButton {
+  float: right;
+  background: #8E8E8E;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 17px;
+  margin: -5% 3%;
+}
+.success-tab {
+  background: #C4C4C4;
+  padding: 2% 5%;
+  height: 548px;
+}
+.success-tab h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  margin: 1% 41%;
+  color: #000;
+}
+.success-tab p {
+  font-weight: 500;
+  color: #000;
+  margin: 2% 6%;
+}
+.success-placeholder {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #FFFFFF;
+  border-radius: 0px 40px;
+}
+.line-1 {
+  margin: 2% 35% !important;
+}
+.line-2 {
+  margin: 15% 36% 0 !important;
+}
+.success-tab .infoButton {
+  padding: 2px 20px;
+  background: #C4C4C4;
+}
+.footer-tab {
+  padding: 2%;
+  background: #000000;
+}
+.footer-tab h4 {
+  font-family: Poppins;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.footer-tab p {
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.logo-section img {
+  display: inline-block;
+  margin: 0 0 0 3%;
+}
+.commit-tab {
+  background: #C4C4C4;
+}
+.commit-tab h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #000000;
+  margin-left: -25%;
+  margin-top: 3%;
+}
+.commit-tab h4 {
+  font-family: Poppins;
+  float: right;
+  color: #000000;
+  font-weight: 600;
+  margin-right: 22%;
+}
+.commit-tab p {
+  margin: 1% 28% 1% 32%;
+  color: #000000;
+}
+.commit-tab .infoButton {
+  margin: 2% 0 8% 1%;
+}
+.info-a {
+  border: 0;
+  background: #fff;
+}
+.info-a i {
+  padding-right: 10px;
+}
+.info-b {
+  background: #C4C4C4;
+}
+.info-b i {
+  padding-right: 10px;
+}
+.reward-tab {
+  padding: 2% 1% 0;
+}
+.reward-tab img {
+  margin: 10px;
+  width: 260px;
+}
+.reward-a {
+  float: right;
+}
+.reward-tab p {
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+  margin: 1% 40% 1% 41%;
+}
+.market-tab .market-brief {
+  width: 949px;
+  min-height: 740px;
+  margin: 2% 22%;
+  background: #E5E5E5;
+  border-radius: 30px;
+  padding-bottom: 2%;
+}
+.market-det {
+  padding-bottom: 10%;
+  margin: 10% 0% 10% 5%;
+}
+.market-det h4 {
+  font-family: Poppins;
+  background: #C0C0C0;
+  font-weight: 600;
+  margin-top: -1px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 10px;
+  color: #000;
+  border-radius: 30px 30px 0px 0px;
+}
+.market-det hr {
+  margin-top: 60px;
+  margin-bottom: 0px;
+  border-top: 2px solid #eee;
+}
+.stock-card-ind {
+  display: inline-block;
+  width: 36%;
+  height: 88px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  margin: 3% 1% 3% 4.5%;
+  padding: 1.5%
+}
+.market-brief h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  margin-left: 3%;
+}
+.stock-card-ind img {
+  margin-top: 2%;
+  margin: 45% 0 0 20%
+}
+.stock-card-news {
+  display: inline-block;
+  width: 22%;
+  height: 178px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  margin: 3% 1% 3% 4.5%;
+  padding: 1.5%
+}
+.market-brief .startedButton {
+  margin-left: 20%;
+}
+.market-links {
+  margin: 3% 0 0 7%;
+}
+.market-links h4 {
+  color: darkslategray;
+}
+.sub-tabs span {
+  display: inline-block;
+  background: #E5E5E5;
+  border-radius: 30px;
+  /* position: absolute; */
+  width: 148px;
+  height: 100px;
+  margin: 2%;
+}
+.main-tab span p {
+  text-align: center;
+    font-size: 16px;
+    line-height: 84px;
+}
+.main-tab .sub-text {
+  font-size: 24px;
+    margin-bottom: 4%;
+}
+.market-tab .form-input {
+  background: #fff;
+  width: 37%;
+  height: 45px;
+  margin: 5% 21% 2%;
+}
+.market-tab .form .fa-search {
+  left: 22%;
+  top: 16px;
+  color: #000;
+}
+.market-det .sub-list {
+  max-height: 730px;
+    margin-top: -23%;
+    min-height: 730px;
+    background: #E5E5E5;
+    border-radius: 0 0 30px 30px;
+}
+.stock-value .change {
+  margin: 10px 0 0 0;
+}
+.stock-card-ind h5 {
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.stock-card-news p {
+  color: #000;
+  font-weight: 500;
+}
+.news-head {
+  margin: 4%;
+}
+.news-tail {
+  margin: 19% 4%;
+}
+.infoButton i {
+  margin-left: 9px;
+}
+.badge {
+  position: absolute;
+  top: 70%;
+  right: 8%;
+  padding: 0.7%;
+  border-radius: 50%;
+  background: #C4C4C4;
+  color: white;
+}
+.add-to-icon i {
+  float: right;
+  margin-top: -31%;
+  font-size: 33px;
+  color: #000;
+}
+.faq-tab {
+  padding: 0 22%;
+}
+.faq-ind {
+  display: inline-block;
+  width: 280px;
+  background: #E5E5E5;
+  border-radius: 40px 40px 40px 0px;
+  margin: 3%;
+  padding: 6%;
+  margin-top: -16px;
+  text-align: justify;
+}
+.faq-ind img {
+  width: 30%;
+  margin: 2% 35%;
+}
+.faq-outer-tab {
+  display: inline-block;
+  margin: 4% 3%;
+  background: #8E8E8E;
+  border-radius: 10px 0px;
+}
+.faq-ind h5 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: #000;
+}
+.sub-head {
+  text-align: center;
+}
+.faq-basic {
+  display: flex;
+  float: right;
+  width: 82%;
+  margin: 4% 1%;
+  background: #C4C4C4;
+  border-radius: 20px;
+}
+.faq-basic i {
+  line-height: 51px;
+  margin-left: 15%;
+  font-size: 30px;
+  color: #000;
+}
+.faq-basic p {
+  padding: 0% 10%;
+  line-height: 50px;
+  margin: 0 0 0;
+} 
+.reward-tab span p {
+  margin: 1% 48%;
+}
+.left-push {
+  float: left;
+}
+.faq-tab-auto {
+  margin-bottom: 3%;
+}
+.stock-card h5 {
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.stock-card p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.stock-card .stock-head {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #000000;
+}
+.stock-card i {
+  font-size: 20px;
+  line-height: 49px;
+  color: #000;
+  font-weight: 500;
+}
