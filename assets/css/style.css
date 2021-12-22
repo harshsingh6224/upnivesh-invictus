@@ -39,7 +39,7 @@ body {
   position: absolute;
   top: 10px;
   left: 20px;
-  color: #9ca3af
+  color: #000;
 }
 
 .form span {
@@ -125,8 +125,7 @@ body {
 }
 .success-tab {
   background: #C4C4C4;
-  padding: 3% 5%;
-  height: 548px;
+  padding: 1% 1%;
 }
 .success-tab h3 {
   font-family: Poppins;
@@ -140,7 +139,6 @@ body {
   margin: 2% 6%;
 }
 .success-placeholder {
-  position: absolute;
   width: 200px;
   height: 200px;
   background: #FFFFFF;
@@ -150,7 +148,7 @@ body {
   margin: 2% 35% !important;
 }
 .line-2 {
-  margin: 15% 36% 0 !important;
+  margin: 2% 36%!important;
   padding-bottom: 2%;
 }
 .success-tab .infoButton {
