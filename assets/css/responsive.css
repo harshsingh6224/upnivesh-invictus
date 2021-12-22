@@ -37,4 +37,8 @@
     .startedButton {
         margin: 3%;
     }
+    .market-det .sub-list {
+        max-height: 782px;
+        min-height: 782px;
+    }
 }
