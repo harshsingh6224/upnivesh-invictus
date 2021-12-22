@@ -41,4 +41,7 @@
         max-height: 782px;
         min-height: 782px;
     }
+    .chatButton {
+        margin: 3% -15%;
+    }
 }
