@@ -154,7 +154,7 @@
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="current-value">
-                                                <h5>CURRENT VALUE</h5>
+                                                <h5 id="demo"> </h5>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
@@ -175,7 +175,7 @@
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="current-value">
-                                                <h5>CURRENT VALUE</h5>
+                                                <h5 id="demo"> </h5>
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
@@ -462,6 +462,21 @@
             if (lastUserMessage === 'name') {
                 botMessage = 'My name is ' + botName;
             }
+            if (lastUserMessage === 'how' || lastUserMessage == 'how are you') {
+                botMessage = 'I am fine.. What about you?';
+            }
+            if (lastUserMessage === 'thanks' || lastUserMessage == 'sorry') {
+                botMessage = 'mention Not :)';
+            }
+            if (lastUserMessage === 'good morning' || lastUserMessage == 'good day') {
+                botMessage = 'You too';
+            }
+            if (lastUserMessage === 'bye' || lastUserMessage == 'tata') {
+                botMessage = 'Ok Bye.. See you soon...';
+            }
+            if (lastUserMessage === 'a bot' || lastUserMessage == 'doubt') {
+                botMessage = 'Bro...';
+            }
             }
             //****************************************************************
             //****************************************************************
@@ -548,6 +563,16 @@
               document.getElementById("myForm").style.display = "none";
             }
         </script>
-            
+        <script>
+            var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                    var myObj = JSON.parse(this.responseText);
+                    document.getElementById("demo").innerHTML = myObj.high;
+                }
+            };
+            xmlhttp.open("GET", "https://www.bitstamp.net/api/ticker/?u" + new Date().getTime(), true);
+            xmlhttp.send();
+        </script>
     </body>
 </html>
