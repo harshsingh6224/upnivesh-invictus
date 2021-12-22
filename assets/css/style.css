@@ -83,14 +83,14 @@ body {
 }
 .startedButton {
   background: #8E8E8E;
-    border-radius: 40px;
-    margin-left: 10%;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 31px;
-    border: 0;
-    color: #fff;
-    padding: 7px 71px;
+  border-radius: 40px;
+  margin-left: 10%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  border: 0;
+  color: #fff;
+  padding: 7px 71px;
 }
 .entry-btns {
   float: right;
@@ -107,7 +107,7 @@ body {
   background: #fff;
   font-size: 17px;
   line-height: 31px;
-  padding: 7px 45px;
+  padding: 0.5% 1%;
   color: #000;
   font-weight: 600;
 }
@@ -124,7 +124,7 @@ body {
 }
 .success-tab {
   background: #C4C4C4;
-  padding: 2% 5%;
+  padding: 3% 5%;
   height: 548px;
 }
 .success-tab h3 {
@@ -150,6 +150,7 @@ body {
 }
 .line-2 {
   margin: 15% 36% 0 !important;
+  padding-bottom: 2%;
 }
 .success-tab .infoButton {
   padding: 2px 20px;
@@ -179,7 +180,7 @@ body {
   font-family: Poppins;
   font-weight: 600;
   color: #000000;
-  margin-left: -25%;
+  margin-left: -33%;
   margin-top: 3%;
 }
 .commit-tab h4 {
@@ -187,7 +188,7 @@ body {
   float: right;
   color: #000000;
   font-weight: 600;
-  margin-right: 22%;
+  margin-right: 32%;
 }
 .commit-tab p {
   margin: 1% 28% 1% 32%;
@@ -195,6 +196,7 @@ body {
 }
 .commit-tab .infoButton {
   margin: 2% 0 8% 1%;
+  padding: 1% 5% 1% 2%;
 }
 .info-a {
   border: 0;
@@ -226,7 +228,7 @@ body {
   margin: 1% 40% 1% 41%;
 }
 .market-tab .market-brief {
-  width: 949px;
+  width: 78%;
   min-height: 740px;
   margin: 2% 22%;
   background: #E5E5E5;
@@ -234,6 +236,7 @@ body {
   padding-bottom: 2%;
 }
 .market-det {
+  width: 92%;
   padding-bottom: 10%;
   margin: 10% 0% 10% 5%;
 }
@@ -324,10 +327,10 @@ body {
 }
 .market-det .sub-list {
   max-height: 730px;
-    margin-top: -23%;
-    min-height: 730px;
-    background: #E5E5E5;
-    border-radius: 0 0 30px 30px;
+  margin-top: -24%;
+  min-height: 730px;
+  background: #E5E5E5;
+  border-radius: 0 0 30px 30px;
 }
 .stock-value .change {
   margin: 10px 0 0 0;
@@ -368,17 +371,17 @@ body {
   color: #000;
 }
 .faq-tab {
-  padding: 0 22%;
+  padding: 0 16%;
 }
 .faq-ind {
   display: inline-block;
-  width: 280px;
-  background: #E5E5E5;
-  border-radius: 40px 40px 40px 0px;
-  margin: 3%;
-  padding: 6%;
-  margin-top: -16px;
-  text-align: justify;
+    width: 100%;
+    background: #E5E5E5;
+    border-radius: 40px 40px 40px 0px;
+    margin: 3%;
+    padding: 6%;
+    margin-top: -16px;
+    text-align: justify;
 }
 .faq-ind img {
   width: 30%;
@@ -386,9 +389,10 @@ body {
 }
 .faq-outer-tab {
   display: inline-block;
-  margin: 4% 3%;
-  background: #8E8E8E;
-  border-radius: 10px 0px;
+    margin: 4% 3%;
+    width: 25%;
+    background: #8E8E8E;
+    border-radius: 10px 0px;
 }
 .faq-ind h5 {
   text-align: center;
