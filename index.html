@@ -118,7 +118,7 @@
                     <button type="started" class="infoButton">Already an UpNiveshian<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                     <button type="started" class="chatButton open-button" onclick="openForm()">Chat with us</button>
                     <div class="form-popup" id="myForm">
-                        <form action="#" class="form-container">
+                        <form action=" " class="form-container">
                             <div id='bodybox'>
                                 <div id='chatborder'>
                                   <p id="chatlog7" class="chatlog">&nbsp;</p>
@@ -131,7 +131,7 @@
                                   <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
                                 </div>
                             </div>
-                          <button type="submit" class="btn">Login</button>
+                          <button type="submit" class="btn">Send</button>
                           <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
                         </form>
                     </div>
@@ -190,52 +190,180 @@
                                 </div>
                             </div>
                             <h4>INDEX</h4>
-                            <div class="row">
-                                <div class="stock-card-ind">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="stock-name">
-                                                <h5>NIFTY</h5>
-                                                <p>NSE</p>
+                            
+                            <div class="container-in">
+                                <!-- bootstrap card with row name myCarousel as row 1-->
+                                <div class="carousel slide" id="myCarousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="stock-card-ind">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-name">
+                                                                    <h5>NIFTY</h5>
+                                                                    <p>NSE</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="current-value">
+                                                                    <h5 id="demo"> </h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-value">
+                                                                    <p class="change">+- CHANGE </p>
+                                                                    <p>(% CHANGE )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="stock-card-ind part-b">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-name">
+                                                                    <h5>NIFTY</h5>
+                                                                    <p>NSE</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="current-value">
+                                                                    <h5 id="demo"> </h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-value">
+                                                                    <p class="change">+- CHANGE </p>
+                                                                    <p>(% CHANGE )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="current-value">
-                                                <h5 id="demo"> </h5>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="stock-card-ind">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-name">
+                                                                    <h5>NIFTY</h5>
+                                                                    <p>NSE</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="current-value">
+                                                                    <h5 id="demo"> </h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-value">
+                                                                    <p class="change">+- CHANGE </p>
+                                                                    <p>(% CHANGE )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="stock-card-ind part-b">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-name">
+                                                                    <h5>NIFTY</h5>
+                                                                    <p>NSE</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="current-value">
+                                                                    <h5 id="demo"> </h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-value">
+                                                                    <p class="change">+- CHANGE </p>
+                                                                    <p>(% CHANGE )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="stock-value">
-                                                <p class="change">+- CHANGE </p>
-                                                <p>(% CHANGE )</p>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="stock-card-ind">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-name">
+                                                                    <h5>NIFTY</h5>
+                                                                    <p>NSE</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="current-value">
+                                                                    <h5 id="demo"> </h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-value">
+                                                                    <p class="change">+- CHANGE </p>
+                                                                    <p>(% CHANGE )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="stock-card-ind part-b">
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-name">
+                                                                    <h5>NIFTY</h5>
+                                                                    <p>NSE</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="current-value">
+                                                                    <h5 id="demo"> </h5>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="stock-value">
+                                                                    <p class="change">+- CHANGE </p>
+                                                                    <p>(% CHANGE )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="stock-card-ind">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="stock-name">
-                                                <h5>NIFTY</h5>
-                                                <p>NSE</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="current-value">
-                                                <h5 id="demo"> </h5>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="stock-value">
-                                                <p class="change">+- CHANGE </p>
-                                                <p>(% CHANGE )</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div> <a class="left carousel-control"
+                                              href="#myCarousel"
+                                              data-slide="prev">
+                                  <i class="glyphicon glyphicon-chevron-left">
+                                  </i>
+                                  </a>
+                                    <a class="right carousel-control" 
+                                       href="#myCarousel" 
+                                       data-slide="next">
+                                      <i class="glyphicon glyphicon-chevron-right">
+                                      </i>
+                                  </a>
+                          
                                 </div>
                             </div>
+
+
                             <h4>STOCKS IN NEWS</h4>
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="stock-card-news">
                                     <div class="news-head">
                                         <p>LOGO</p>
@@ -274,8 +402,182 @@
                                     <div class="add-to-icon">
                                         <i class="fa fa-plus-circle" aria-hidden="true"></i>
                                     </div>
+                                </div>
+                            </div> -->
+                            
+                            <div class="container-in">
+                                <!-- bootstrap card with row name myCarousel as row 1-->
+                                <div class="carousel slide" id="myCarouselNews">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="row">
+                                                <div class="col-lg-1"></div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-lg-1"></div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-lg-1"></div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <div class="stock-card-news">
+                                                        <div class="news-head">
+                                                            <p>LOGO</p>
+                                                            <p>STOCK NAME</p>
+                                                        </div>
+                                                        <div class="news-tail">
+                                                            <p>CURRENT PRICE</p>
+                                                            <p>CHANGE( % )</p>
+                                                        </div>
+                                                        <div class="add-to-icon">
+                                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-1"></div>
+                                            </div>
+                                        </div>
+                                    </div> <a class="left carousel-control"
+                                              href="#myCarouselNews"
+                                              data-slide="prev">
+                                  <i class="glyphicon glyphicon-chevron-left">
+                                  </i>
+                                  </a>
+                                    <a class="right carousel-control" 
+                                       href="#myCarouselNews" 
+                                       data-slide="next">
+                                      <i class="glyphicon glyphicon-chevron-right">
+                                      </i>
+                                  </a>
+                          
                                 </div>
                             </div>
+                            
                             <button type="started" class="startedButton">Get Started for more customized experience</button>
                             <div class="market-links">
                                 <div class="row">
@@ -391,7 +693,7 @@
             <div class="faq-tab">
                 <div class="container-in">
                     <!-- bootstrap card with row name myCarousel as row 1-->
-                    <div class="carousel slide" id="myCarousel">
+                    <div class="carousel slide" id="myCarouselFAQ">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
@@ -514,13 +816,13 @@
                                 </div>
                             </div>
                         </div> <a class="left carousel-control"
-                                  href="#myCarousel"
+                                  href="#myCarouselFAQ"
                                   data-slide="prev">
                       <i class="glyphicon glyphicon-chevron-left">
                       </i>
                       </a>
                         <a class="right carousel-control" 
-                           href="#myCarousel" 
+                           href="#myCarouselFAQ" 
                            data-slide="next">
                           <i class="glyphicon glyphicon-chevron-right">
                           </i>
@@ -862,7 +1164,7 @@
                 modal.style.display = "none";
               }
             }
-            </script>
+        </script>
             
             <script>
                 function myFunction() {
