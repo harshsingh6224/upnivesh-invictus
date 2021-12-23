@@ -191,4 +191,7 @@
         padding: 3%;
         margin: -29% -35%;
     }
+    .mobile-container {
+        display: block;
+    }
 }
