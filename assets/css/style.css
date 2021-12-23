@@ -370,7 +370,7 @@ body {
   color: #000;
 }
 .faq-tab {
-  padding: 0 16%;
+  padding: 0 10%;
 }
 .faq-ind {
   display: inline-block;
@@ -389,7 +389,7 @@ body {
 .faq-outer-tab {
   display: inline-block;
     margin: 4% 3%;
-    width: 25%;
+    width: 80%;
     background: #8E8E8E;
     border-radius: 10px 0px;
 }
@@ -404,11 +404,11 @@ body {
 }
 .faq-basic {
   display: flex;
-  float: right;
   width: 82%;
-  margin: 4% 1%;
+  margin: 8% 5%;
   background: #C4C4C4;
   border-radius: 20px;
+  border: 0;
 }
 .faq-basic i {
   line-height: 51px;
@@ -417,15 +417,13 @@ body {
   color: #000;
 }
 .faq-basic p {
+  min-width: 74%;
   padding: 0% 10%;
   line-height: 50px;
   margin: 0 0 0;
 } 
 .reward-tab span p {
   margin: 1% 48%;
-}
-.left-push {
-  float: left;
 }
 .faq-tab-auto {
   margin-bottom: 3%;
@@ -638,7 +636,19 @@ pre {
   color: black;
 }
 
-.active {
+.active-1 {
   background-color: #8E8E8E;
   color: white;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.faq-tab .carousel-inner {
+  width: 80%;
+  margin: 5% 11%;
 }
