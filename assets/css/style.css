@@ -254,26 +254,34 @@ float: right;
 width: 78%;
 min-height: 740px;
 margin: 2% 22%;
-background: #E5E5E5;
+background: #fff;
 border-radius: 30px;
 padding-bottom: 2%;
+border: 2px solid #3C0000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .market-det {
 width: 92%;
 padding-bottom: 10%;
 margin: 10% 0% 10% 5%;
+max-height: 700px;
+min-height: 700px;
+border-radius: 0 0 30px 30px;
 }
 .market-det h4 {
 font-family: Poppins;
-background: #C0C0C0;
+background: #fff;
 font-weight: 600;
 margin-top: -1px;
 text-align: center;
 width: 100%;
 margin-bottom: 0;
 padding: 10px;
-color: #000;
+border: 1px solid #3C0000;
+color: #3C0000;
 border-radius: 30px 30px 0px 0px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
 }
 .market-det hr {
 margin-top: 60px;
@@ -288,6 +296,7 @@ display: inline-block;
   border-radius: 30px;
   margin: 9% 1% 6% 20.5%;
   padding: 1.5%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .part-b {
 margin-left: -1%;
@@ -297,7 +306,7 @@ font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
-color: #000;
+color: #3C0000;
 margin-left: 3%;
 }
 .stock-card-ind img {
@@ -313,6 +322,7 @@ display: inline-block;
   margin: 20%;
   /* margin: 3% 1% 3% 4.5%; */
   padding: 1.5%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .market-brief .startedButton {
 margin-left: 20%;
@@ -325,7 +335,7 @@ color: darkslategray;
 }
 .sub-tabs span {
 display: inline-block;
-background: #E5E5E5;
+background: #fff;
 border-radius: 30px;
 /* position: absolute; */
 width: 148px;
@@ -349,18 +359,24 @@ background: #fff;
 width: 37%;
 height: 45px;
 margin: 5% 21% 2%;
+color: #3C0000;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .market-tab .form .fa-search {
 left: 22%;
 top: 16px;
-color: #000;
+color: #3C0000;
 }
-.market-det .sub-list {
-max-height: 730px;
-margin-top: -24%;
-min-height: 730px;
-background: #E5E5E5;
-border-radius: 0 0 30px 30px;
+.market-det .market-sub-tab {
+margin-top: 0%;
+background: #fff;
+border: 1px solid #3C0000;
+}
+.market-sub-tab-1 {
+  background: #fff;
+}
+.market-sub-tab-2 {
+  background: #fff;
 }
 .stock-value .change {
 margin: 10px 0 0 0;
@@ -727,4 +743,11 @@ background: #FFDD00;
 }
 .faq-tab-auto .startedButton {
   margin-left: 43%;
+}
+.market-sub-tab li {
+  color: #3C0000;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 25px;
 }
