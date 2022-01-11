@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en" class="js csstransforms csstransforms3d csstransitions">
+<html lang="en">
     
 <head>
     <meta charset="utf-8">
@@ -25,17 +25,13 @@
     <body class="stock-exchange">  
         <header class="header-section">
             <div class="topnav">
-                <a class="active" href="index.html">LOGO</a>
+                <a class="active" href="index.html"><img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641878324.png" alt="image"/></a>
                 <a href="#">Services</a>
                 <a href="#">New to Investment</a>
                 <a href="#">FAQs</a>
-                <a href="#">Support</a>
-                <a href="#">NewsFeed</a>
-                <span class="open-btn">
-                    <a href="#">Open Trading Account</a>
-                </span>
+                
                 <span class="entry-btns">
-                    <a href="#" id="myBtn" onclick="openFormLogin()">Login</a>
+                    <a href="#" id="myBtn" onclick="openFormLogin()">login</a>
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
 
@@ -88,98 +84,78 @@
         </div>
         
         <div class="home">
-            <div class="container">
-                <div class="form"> 
-                    <i class="fa fa-search"></i> 
-                    <input type="text" class="form-control form-input" placeholder="what are you looking for?"> 
-                    <span class="left-pan"><i class="fa fa-microphone"></i></span> 
-                </div>
-            </div>
-            <div class="row">
-                <div class="main-tab">
-                    <div class="col-lg-6">
-                        <p>GROW your WEALTH with us</p>
-                        <p class="sub-text">Stay simple, Hunt the Market</p>
-                        <button type="started" class="startedButton">Start Your UpNivesh</button>
+            <div class="grow-tab">
+                <div class="container">
+                    <div class="form"> 
+                        <i class="fa fa-search"></i> 
+                        <input type="text" class="form-control form-input" placeholder="what are you looking for?"> 
+                        <span class="left-pan"><i class="fa fa-microphone"></i></span> 
                     </div>
-                    <div class="col-lg-6">
-                        <div class="sub-tabs">
-                            <span><p>Stocks</p></span>
-                            <span><p>Mutual Funds</p></span>
-                            <span><p>Insurance</p></span>
-                            <span><p>IPOs</p></span>
-                            <span><p>SIPs</p></span>
+                </div>
+                <div class="row">
+                    <div class="main-tab">
+                        <div class="col-lg-6">
+                            <p>GROW your WEALTH with us</p>
+                            <p class="sub-text">Stay simple, Hunt the Market</p>
+                            <button type="started" class="startedButton">Start Your UpNivesh</button>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="sub-tabs">
+                                <span><p>Stocks</p></span>
+                                <span><p>Mutual Funds</p></span>
+                                <span><p>Insurance</p></span>
+                                <span><p>IPOs</p></span>
+                                <span><p>SIPs</p></span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="info-chat-btns">
-                    <button type="started" class="infoButton">Already an UpNiveshian<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-                    <button type="started" class="chatButton open-button" onclick="openForm()">Chat with us</button>
-                    <div class="form-popup" id="myForm">
-                        <form action=" " class="form-container">
-                            <div id='bodybox'>
-                                <div id='chatborder'>
-                                  <p id="chatlog7" class="chatlog">&nbsp;</p>
-                                  <p id="chatlog6" class="chatlog">&nbsp;</p>
-                                  <p id="chatlog5" class="chatlog">&nbsp;</p>
-                                  <p id="chatlog4" class="chatlog">&nbsp;</p>
-                                  <p id="chatlog3" class="chatlog">&nbsp;</p>
-                                  <p id="chatlog2" class="chatlog">&nbsp;</p>
-                                  <p id="chatlog1" class="chatlog">&nbsp;</p>
-                                  <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+                <div class="row">
+                    <div class="info-chat-btns">
+                        <button type="started" class="chatButton open-button" onclick="openForm()">Chat with us</button>
+                        <div class="form-popup" id="myForm">
+                            <form action=" " class="form-container">
+                                <div id='bodybox'>
+                                    <div id='chatborder'>
+                                      <p id="chatlog7" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog6" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog5" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog4" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog3" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog2" class="chatlog">&nbsp;</p>
+                                      <p id="chatlog1" class="chatlog">&nbsp;</p>
+                                      <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+                                    </div>
                                 </div>
-                            </div>
-                          <button type="submit" class="btn">Send</button>
-                          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                        </form>
+                              <button type="submit" class="btn">Send</button>
+                              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="success-tab">
-                <h3>Now Everyone Can Nivesh</h3>
-                <p class="line-1">Choose the smart you, now everyone can have the gains with knowledge in Investment</p>
-                <div class="row">
-                    <div class="col-lg-3">
-
-                    </div>
-                    <div class="col-lg-2">
-                        <p class="success-placeholder one"> </p>
-                    </div>
-                    <div class="col-lg-2">
-                        <p class="success-placeholder two"> </p>
-                    </div>
-                    <div class="col-lg-2">
-                        <p class="success-placeholder three"> </p>
-                    </div>
-                    <div class="col-lg-3">
-
-                    </div>
-                </div>
-                <p class="line-2"><strong>UpNivesh</strong> your life and <strong>AUTOMATE</strong> your journey of your <strong>SECOND INCOME</strong></p>
+                <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641882206.png" alt="image"/>
             </div>
 
             <div class="invest-tab">
-                <div class="row">
-                    <div class="col-lg-3">
+                <h3>UpNivesh, your one shot platform for all your Investments</h3>
+                <p>We are here on a mission to help every Indian get the reward of a world-class investment platform and provide futuristic investment advice.Our rapid growth is impelled by an energetic team with vast experience at leading finance and internet compaies of India. </p>
 
-                    </div>
-                    <div class="col-lg-3">
-                        
-                    </div>
-                    <div class="col-lg-3">
-                        
-                    </div>
-                </div>
+                <p>Our channelized approach and thorough market analysis helps our clients to make profits as well as the  knowledge at the same time. Our robust services and energetic team support make sure our client’s investment journy is hassle free and productive. </p>
+                    
+                <p>We also offer  our clients with knowledge learning modules to smoothen their understanding about the world of productive investments. Our name has been derived from our goal ‘Up’ the ‘Nivesh’, a Hindi derived word, and we mean to rise up the investments of our clients to  a positive bar. With a good client base, we take this honour to help our clients with the best possible way to pile up the happiness in their investment jouney. </p>
+            
+                <p>UpNivesh offers a safe, seamless, reliable way of investments to a wide choice of Investment portfolio. With our joyful clientbase, we are continuing to grow our learning experience and help our trustholders in the most rewarding possible manner. You can get started with us in a seamless manner by connecting to our support team. </p>
             </div>
 
-            <div class="reward-tab">
-                <p>Open the Rewarding gates of Investing </p>
-            </div>
-
+            
             <div class="market-tab">
+                <div class="reward-tab">
+                    <p>Open the Rewarding gates of Investing </p>
+                </div>
+    
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="market-brief">
@@ -636,7 +612,7 @@
                 </div>
                 <p>Get in touch with us to explore the immense opportunities of RIGHT INVESTMENTs, and leverage  yourselves with Wealth.</p>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
 
                     </div>
                     <div class="col-lg-2">
@@ -645,18 +621,13 @@
                     <div class="col-lg-2">
                         <button type="chat" class="infoButton info-b"><i class="fa fa-file-text-o" aria-hidden="true"></i>CHAT with us</button>
                     </div>
-                    <div class="col-lg-2">
-                        <button type="sign-up" class="infoButton info-a"><i class="fa fa-user-circle" aria-hidden="true"></i>Sign Up</button>
-                    </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         
                     </div>
                 </div>
             </div>
             
-            <div class="reward-tab">
-                <p class="reward-sub">Hear, what others are doing with UpNivesh</p>
-            </div>
+            
 
            <!--  <div class="faq-tab">
                 <div class="row">
@@ -691,153 +662,54 @@
 
 
             <div class="faq-tab">
+                <div class="reward-tab">
+                    <p class="reward-sub">Hear, what others are doing with UpNivesh</p>
+                </div>
                 <div class="container-in">
-                    <!-- bootstrap card with row name myCarousel as row 1-->
-                    <div class="carousel slide" id="myCarouselFAQ">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="faq-outer-tab">
+                                    <div class="faq-ind">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641899975.png" alt="image"/>
+                                        <h5>Mr. Ankit Desai</h5>
+                                        <p class="sub-head">Software Engineer(Ramgarh, JH)</p>
+                                        <p>"UpNivesh helped me with my first demat account and it has been absolute pleasure to trade with UpNivesh.Their services has results which shows their proper knowledge and research they do.. One need not have to be expert in stock market, just follow the fundamental calls, you will be able to make good profits."</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
+                            <div class="col-lg-4">
+                                <div class="faq-outer-tab">
+                                    <div class="faq-ind">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641900229.png" alt="image"/>
+                                        <h5>Mrs. Julika Pandey</h5>
+                                        <p class="sub-head">HomeMaker(Hazaribagh, JH)</p>
+                                        <p>“My investment experience with UpNivesh has been nothing short of amazing, from guiding me in the intial days to streamlining the portfolio at present. Special mention for the consultant team who have responded to all my queries with utmost gentleness and respect. Keep it going”</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <a href="#">
-                                            <div class="faq-outer-tab">
-                                                <div class="faq-ind">
-                                                    <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1640082752.png" alt="image"/>
-                                                    <h5>Mr. Ankit Desai</h5>
-                                                    <p class="sub-head"> Profession</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis arcu sed nunc montes, nisl, consectetur pharetra. A, felis tristique urna aliquam mauris eu diam. Senectus mauris, ipsum dignissim egestas. Blandit eget maecenas risus iaculis. Velit cursus fames volutpat ut.</p>
-                                                </div>
-                                            </div>
-                                      </a>
+                            <div class="col-lg-4">
+                                <div class="faq-outer-tab">
+                                    <div class="faq-ind">
+                                        <img src="https://s3.ap-south-1.amazonaws.com/files.invictusdigisoft.com/cms-gdgoenkapublicschool/images/ckeditor/png/1641900576.png" alt="image"/>
+                                        <h5>Mr. Keshav Rao Atulkar</h5>
+                                        <p class="sub-head">Businessman(Ranchi, JH)</p>
+                                        <p>“We started our association with UpNivesh quite a few years back after checking the reputation of various advisory/investment platforms. It's been a very nice association and we are very satisfied with the service provided. I would strongly recommend UpNivesh to anyone looking to start Investment.”</p>
                                     </div>
                                 </div>
                             </div>
-                        </div> <a class="left carousel-control"
-                                  href="#myCarouselFAQ"
-                                  data-slide="prev">
-                      <i class="glyphicon glyphicon-chevron-left">
-                      </i>
-                      </a>
-                        <a class="right carousel-control" 
-                           href="#myCarouselFAQ" 
-                           data-slide="next">
-                          <i class="glyphicon glyphicon-chevron-right">
-                          </i>
-                      </a>
-              
+                        </div>
                     </div>
                 </div>
             </div>
             
 
-            <div class="reward-tab">
-                <span><p>FAQs</p></span>
-            </div>
+            
 
             <div class="faq-tab-auto">
+                <div class="reward-tab">
+                    <span><p>FAQs</p></span>
+                </div>
                 <div class="row">
                     <div class="col-lg-3"></div>
                     <div class="col-lg-3">
@@ -936,6 +808,7 @@
                     </div>
                     <div class="col-lg-3"></div>
                 </div>
+                <button type="started" class="startedButton">view more</button>
             </div>
 
             <footer class="footer-tab">
@@ -1191,5 +1064,20 @@
                 });
             </script>
                 
+            <script>
+                var url = 'https://newsapi.org/v2/everything?' +
+                            'q=Apple&' +
+                            'from=2022-01-11&' +
+                            'sortBy=popularity&' +
+                            'apiKey=2f0f205a93ae4f1d99af4b1adf81f39f';
+
+                var req = new Request(url);
+
+                fetch(req)
+                    .then(function(response) {
+                        console.log(response.json());
+                    })
+
+            </script>
     </body>
 </html>
