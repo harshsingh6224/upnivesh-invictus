@@ -291,11 +291,10 @@ border-top: 2px solid #eee;
 }
 .stock-card-ind {
 display: inline-block;
-  width: 80%;
+  width: 100%;
   height: 88px;
   background: #FFFFFF;
   border-radius: 30px;
-  margin: 9% 1% 6% 20.5%;
   padding: 1.5%;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
@@ -315,18 +314,17 @@ margin-top: 2%;
 margin: 45% 0 0 20%
 }
 .stock-card-news {
-display: inline-block;
-  width: 100%;
-  height: 178px;
+  display: inline-block;
+  width: 18%;
+  height: 223px;
   background: #FFFFFF;
   border-radius: 30px;
-  margin: 20%;
-  /* margin: 3% 1% 3% 4.5%; */
+  margin: -2% 1.5% 8% 0;
   padding: 1.5%;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .market-brief .startedButton {
-margin-left: 20%;
+margin-left: 25%;
 }
 .market-links {
 margin: 3% 0 0 7%;
@@ -385,7 +383,7 @@ margin: 10px 0 0 0;
 }
 .stock-card-ind h5 {
 font-size: 16px;
-color: #000;
+color: #3C0000;
 font-family: Poppins;
 font-weight: 600;
 margin-bottom: 0;
@@ -395,7 +393,7 @@ color: #000;
 font-weight: 500;
 }
 .news-head {
-margin: 4%;
+  margin: 20% 4%;
 }
 .news-tail {
 margin: 19% 4%;
@@ -414,9 +412,8 @@ color: white;
 }
 .add-to-icon i {
 float: right;
-margin-top: -31%;
 font-size: 33px;
-color: #000;
+color: #FFBE0B;
 }
 .faq-tab {
 padding: 0 10%;
@@ -775,4 +772,57 @@ line-height: 25px;
   font-size: 16px;
     font-weight: 600;
     margin: 5% 7%;
+}
+.stock-cards {
+  margin: 3%;
+}
+.stock-name {
+  margin: 32% 15%;
+}
+.current-value {
+  margin: 43% 0;
+}
+.negative {
+  font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BD0000 !important;
+    margin-top: 33%;
+}
+.positive {
+  color: #04BC00 !important;
+  font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 33%;
+}
+.stock-news {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+.view-more {
+  margin: -3% 3%;
+  float: right;
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #E3170A;
+}
+.stock-news p {
+  color: #3C0000;
+    margin: 4% 1%;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.news-tail .positive {
+  letter-spacing: 0.2px;
+}
+.news-tail .negative {
+  letter-spacing: 0.2px;
+}
+.news-tail .rate {
+  font-weight: 600;
 }

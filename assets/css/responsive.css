@@ -10,7 +10,7 @@
         padding-bottom: 2%;
     }
     .reward-tab p {
-        margin: 1% 37% 1% 38%;
+        margin: 1% 22% 1% 28%;
     }
     .market-tab .market-brief {
         width: 97%;
@@ -22,12 +22,13 @@
     }
     .commit-tab h4 {
         margin-right: 30%;
+        font-size: 28px;
     }
     .commit-tab h2 {
         margin-left: -35%;
     }
     .commit-tab p {
-        margin: 2% 25% 2% 25%;
+        margin: 2% 21% 2% 20%;
     }
     .faq-basic {
         width: 100%;
