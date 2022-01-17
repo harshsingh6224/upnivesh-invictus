@@ -48,6 +48,9 @@
     .faq-basic p {
         padding: 0 5%;
     }
+    .faq .faq-text {
+        margin: -10% -3% 2% 8%;
+    }
 }
 @media only screen and (max-width: 480px) {
     .header-section {

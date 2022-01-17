@@ -67,6 +67,7 @@ padding-left: 10px
 
 .form-input {
   height: 33px;
+  width: 88%;
   line-height: 35px;
   text-indent: 30px;
   background: #fff;
@@ -277,7 +278,7 @@ margin-top: -1px;
 text-align: center;
 width: 100%;
 margin-bottom: 0;
-padding: 10px;
+padding: 20px;
 border: 1px solid #3C0000;
 color: #3C0000;
 border-radius: 30px 30px 0px 0px;
@@ -371,6 +372,7 @@ color: #3C0000;
 margin-top: 0%;
 background: #fff;
 border: 1px solid #3C0000;
+padding-bottom: 17%;
 }
 .market-sub-tab-1 {
   background: #fff;
@@ -711,8 +713,11 @@ width: 80%;
 margin: 5% 11% 0 11%;
 }
 .faq .faq-text {
-margin: 0 15% 0 8%;
-text-align: justify;
+  margin: -8% 17% 0 9%;
+  text-align: justify;
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  padding: 5%;
 }
 .grow-tab {
 background: #FFDD00;
@@ -743,6 +748,7 @@ background: #FFDD00;
 }
 .faq-tab-auto .startedButton {
   margin-left: 43%;
+  margin-top: 2%;
 }
 .market-sub-tab li {
   color: #3C0000;
@@ -750,4 +756,23 @@ background: #FFDD00;
 font-weight: 500;
 font-size: 14px;
 line-height: 25px;
+}
+.market-det .expand-more-tab {
+  background-color: #fff;
+  border: 1px solid #3C0000;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 25%), inset 0px -5px 4px rgb(0 0 0 / 25%);
+}
+.market-det .expand-more-tab i {
+  color: #3C0000;
+  margin: 8% 46%;
+  font-size: 30px;
+}
+.expand-more-btn {
+ padding: 2%;
+}
+.market-sub-tab h5 {
+  font-size: 16px;
+    font-weight: 600;
+    margin: 5% 7%;
 }
