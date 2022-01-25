@@ -1,40 +1,134 @@
-body {
+body{
   margin: 0;
-  font-family: Poppins;
-  font-style: normal;
+  font-family: sans-serif;
+  background-color: #FFDD00;
+}
+nav{
+  margin-bottom: 40px;
+  background: #c4c4c4;
+}
+img{
+  max-width: 100%;
+  transition: all 0.7s ;
+}
+
+.Hover-effect:hover{
+  transform:  translateY(-3px) scale(1.01);
+
+}
+.Hover-effect:hover img{
+  transform:  translateY(-5px) scale(1.02);
+  box-shadow: 10px 9px 17px -10px rgba(0,0,0,0.28);
+}
+h3{
+  font-size: 22px;
+  /* text-align: justify; */
+  letter-spacing: 1.2px;
+}
+h2{
+  font-size: 1.55rem;
+}
+.news-container{
+  width: 80%;
+  margin: 0 10%;
+  margin-bottom: 69px;
+  padding: 0 1rem;
+  padding-top: 92px;
+}
+.news{
+  display: grid;
+ /*  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-gap: 2rem; */
+
+}
+.news-box{
+  width: 94%;
+  height: 96%;
+  transition: all 0.3s ;
+  text-decoration: none;
+  color: #3C0000;
+  /* background-color: white; */
+}
+
+.news-box:hover{
+  text-decoration: none;
+  color: rgb(29, 25, 25);;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+}
+
+.market-sub-tab h3 {
+font-size: 14px;
+margin: -3% 1% 9% 4%;
+}
+.searc-bar{
+  justify-content: center;
+}
+
+/* #effect ********************** */
+
+.Hover-effect {
+  position: relative;
+}
+:root{
+  --underline_color: red;
+  --underline-hight:0.175rem;
+}
+.Hover-effect::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: var(--underline-hight);
+  background-color: var(--underline_color);
+  left: 0;
+  bottom: 0;
+  transform: scale(0, 1);
+  transition: transform 0.3s ease;
+}
+
+
+
+.Hover-effect:hover::after {
+  transform: scale(1, 1);
+}
+
+
+body {
+margin: 0;
+font-family: Poppins;
+font-style: normal;
 }
 img {
-  border: 0;
-  max-width: 100%;
+border: 0;
+max-width: 100%;
 }
 /*.......Top-Navbar........*/
 .topnav {
-  overflow: hidden;
-  background: #FFFFFF;
-  padding: 0 7%;
+overflow: hidden;
+background: #FFFFFF;
+padding: 0 7%;
 }
 .header-section img {
 width: 67%;
 margin: -7%;
 }
 .topnav a {
-  float: left;
-  font-weight: 600;
-  color: #3C0000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+font-weight: 600;
+color: #3C0000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+background-color: #ddd;
+color: black;
 }
 
 .topnav a.active {
 /* background: #8E8E8E;
-  color: white; */
+color: white; */
 }
 /*......Search-Bar........*/
 .form {
@@ -66,14 +160,14 @@ padding-left: 10px
 }
 
 .form-input {
-  height: 33px;
-  width: 88%;
-  line-height: 35px;
-  text-indent: 30px;
-  background: #fff;
-  border-radius: 40px;
-  border: 0;
-  color: #3C0000;
+height: 33px;
+width: 88%;
+line-height: 35px;
+text-indent: 30px;
+background: #fff;
+border-radius: 40px;
+border: 0;
+color: #3C0000;
 }
 
 .form-input:focus {
@@ -108,10 +202,10 @@ float: right;
 }
 .entry-btns .reg {
 border: 2px solid #3C0000;
-  box-sizing: border-box;
-  border-radius: 40px;
-  padding: 8px;
-  margin: 3% 0;
+box-sizing: border-box;
+border-radius: 40px;
+padding: 8px;
+margin: 3% 0;
 }
 .infoButton {
 margin: 2% 42%;
@@ -126,16 +220,16 @@ font-weight: 600;
 }
 .chatButton {
 float: right;
-  /* position: fixed; */
-  background: #E3170A;
-  border-radius: 16px;
-  border: 0;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 1%;
-  margin: 3% 5%;
-  z-index: 999;
+/* position: fixed; */
+background: #E3170A;
+border-radius: 16px;
+border: 0;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+padding: 1%;
+margin: 5% 5%;
+z-index: 999;
 }
 .success-tab {
 /*  background: #C4C4C4;
@@ -187,32 +281,32 @@ display: inline-block;
 margin: 0 0 0 3%;
 }
 .commit-tab {
- background: #E3170A;
+background: #E3170A;
 }
 .commit-tab h2 {
 font-family: Poppins;
-  font-weight: 600;
-  color: #fff;
-  margin-left: -34%;
-  letter-spacing: 2px;
-  margin-top: 7%;
-  font-size: 36px;
+font-weight: 600;
+color: #fff;
+margin-left: -34%;
+letter-spacing: 2px;
+margin-top: 7%;
+font-size: 36px;
 }
 .commit-tab h4 {
 font-family: Poppins;
-  float: right;
-  color: #fff;
-  font-weight: 600;
-  margin-right: 32%;
-  font-size: 32px;
-  letter-spacing: 5px;
-  line-height: 40px;
+float: right;
+color: #fff;
+font-weight: 600;
+margin-right: 32%;
+font-size: 32px;
+letter-spacing: 5px;
+line-height: 40px;
 }
 .commit-tab p {
 margin: 1% 28% 1% 24%;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 1px;
+color: #fff;
+font-weight: 600;
+letter-spacing: 1px;
 }
 .commit-tab .infoButton {
 margin: 2% 0 8% 1%;
@@ -245,11 +339,11 @@ width: 260px;
 float: right;
 }
 .reward-tab p {
-  letter-spacing: 0.2px;
-    font-weight: 600;
-    color: #3C0000;
-    font-size: 30px;
-    margin: 1% 30% 1% 31%;
+letter-spacing: 0.2px;
+  font-weight: 600;
+  color: #3C0000;
+  font-size: 30px;
+  margin: 1% 30% 1% 31%;
 }
 .market-tab .market-brief {
 width: 78%;
@@ -291,12 +385,12 @@ border-top: 2px solid #eee;
 }
 .stock-card-ind {
 display: inline-block;
-  width: 100%;
-  height: 88px;
-  background: #FFFFFF;
-  border-radius: 30px;
-  padding: 1.5%;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+width: 100%;
+height: 88px;
+background: #FFFFFF;
+border-radius: 30px;
+padding: 1.5%;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .part-b {
 margin-left: -1%;
@@ -314,14 +408,14 @@ margin-top: 2%;
 margin: 45% 0 0 20%
 }
 .stock-card-news {
-  display: inline-block;
-  width: 18%;
-  height: 223px;
-  background: #FFFFFF;
-  border-radius: 30px;
-  margin: -2% 1.5% 8% 0;
-  padding: 1.5%;
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+display: inline-block;
+width: 18%;
+height: 223px;
+background: #FFFFFF;
+border-radius: 30px;
+margin: -2% 1.5% 8% 0;
+padding: 1.5%;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 .market-brief .startedButton {
 margin-left: 25%;
@@ -344,14 +438,14 @@ box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .main-tab span p {
 text-align: center;
-  font-size: 16px;
-  line-height: 84px;
-  color: #E3170A;
+font-size: 16px;
+line-height: 84px;
+color: #E3170A;
 }
 .main-tab .sub-text {
 font-size: 24px;
-  margin-bottom: 4%;
-  color: #E3170A;
+margin-bottom: 4%;
+color: #E3170A;
 }
 .market-tab .form-input {
 background: #fff;
@@ -371,12 +465,15 @@ margin-top: 0%;
 background: #fff;
 border: 1px solid #3C0000;
 padding-bottom: 17%;
+overflow-y: auto;
+height: 200px;
+padding-left: 15px;
 }
 .market-sub-tab-1 {
-  background: #fff;
+background: #fff;
 }
 .market-sub-tab-2 {
-  background: #fff;
+background: #fff;
 }
 .stock-value .change {
 margin: 10px 0 0 0;
@@ -393,7 +490,7 @@ color: #000;
 font-weight: 500;
 }
 .news-head {
-  margin: 20% 4%;
+margin: 20% 4%;
 }
 .news-tail {
 margin: 19% 4%;
@@ -421,13 +518,13 @@ background: #FFDD00;
 }
 .faq-ind {
 display: inline-block;
-  width: 100%;
-  background: #E5E5E5;
-  border-radius: 40px 40px 40px 0px;
-  margin: 3%;
-  padding: 6%;
-  margin-top: -16px;
-  text-align: justify;
+width: 100%;
+background: #E5E5E5;
+border-radius: 40px 40px 40px 0px;
+margin: 3%;
+padding: 6%;
+margin-top: -16px;
+text-align: justify;
 }
 .faq-ind img {
 width: 30%;
@@ -435,10 +532,10 @@ margin: 2% 35%;
 }
 .faq-outer-tab {
 display: inline-block;
-  margin: 4% 3%;
-  width: 70%;
-  background: #6F523B;
-  border-radius: 10px 0px;
+margin: 4% 3%;
+width: 70%;
+background: #6F523B;
+border-radius: 10px 0px;
 }
 .faq-ind h5 {
 text-align: center;
@@ -448,14 +545,14 @@ color: #E3170A;
 letter-spacing: 1px;
 }
 .sub-head {
-  text-align: center !important;
-  color: #6F523B !important;
-  font-weight: 500;
-  letter-spacing: 0.2px;
+text-align: center !important;
+color: #6F523B !important;
+font-weight: 500;
+letter-spacing: 0.2px;
 }
 .faq-ind p {
-  color: #3C0000;
-  font-family: Poppins;
+color: #3C0000;
+font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -541,7 +638,7 @@ border-radius: 15px;
 }
 
 .chatlog {
- font: 15px arial, sans-serif;
+font: 15px arial, sans-serif;
 }
 
 #chatbox {
@@ -605,7 +702,7 @@ opacity: 0.8;
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-background-color: #6e6d6d;
+background-color: #E3170A;
 }
 
 /* Add some hover effects to buttons */
@@ -654,17 +751,17 @@ cursor: pointer;
 
 .mobile-container {
 display: none;
-  max-width: 480px;
-  margin: auto;
-  /* background-color: #555; */
-  /* height: 500px; */
-  color: white;
-  border-radius: 10px;
+max-width: 480px;
+margin: auto;
+/* background-color: #555; */
+/* height: 500px; */
+color: white;
+border-radius: 10px;
 }
 
 .topnav-mobile {
 overflow: hidden;
-background-color: #8E8E8E;
+background-color: #fff;
 position: relative;
 }
 
@@ -673,7 +770,7 @@ display: none;
 }
 
 .topnav-mobile a {
-color: white;
+color: #3C0000;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
@@ -681,21 +778,21 @@ display: block;
 }
 
 .topnav-mobile a.icon {
-background: #8E8E8E;
 display: block;
 position: absolute;
 right: 0;
 top: 0;
 }
 
-.topnav-mobile a:hover {
-background-color: #C4C4C4;
-color: black;
+.topnav-mobile :hover {
+background-color: #BD0000;
+color: #fff;
 }
 
 .active-1 {
-background-color: #8E8E8E;
-color: white;
+background-color: #fff;
+color: #000 !important;
+padding: 5px 44px 5px 20px !important;
 }
 .cards-wrapper {
 display: flex;
@@ -710,11 +807,11 @@ width: 80%;
 margin: 5% 11% 0 11%;
 }
 .faq .faq-text {
-  margin: -8% 17% 0 9%;
-  text-align: justify;
-  background: #fff;
-  border-radius: 0 0 20px 20px;
-  padding: 5%;
+margin: -8% 17% 0 9%;
+text-align: justify;
+background: #fff;
+border-radius: 0 0 20px 20px;
+padding: 5%;
 }
 .grow-tab {
 background: #FFDD00;
@@ -722,7 +819,7 @@ background: #FFDD00;
 .invest-tab {
 background: #6F523B;
 padding: 2% 14%;
-  text-align: justify;
+text-align: justify;
 }
 .invest-tab h3 {
 color: #fff;
@@ -738,72 +835,72 @@ margin-bottom: 2%;
 background: #FFDD00;
 }
 .carousel-control.left {
-  background-image: none;
+background-image: none;
 }
 .carousel-control.right {
-  background-image: none;
+background-image: none;
 }
 .faq-tab-auto .startedButton {
-  margin-left: 43%;
-  margin-top: 2%;
+margin-left: 43%;
+margin-top: 2%;
 }
 .market-sub-tab li {
-  color: #3C0000;
-  font-style: normal;
+color: #3C0000;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 25px;
+line-height: 24px;
 }
 .market-det .expand-more-tab {
-  background-color: #fff;
-  border: 1px solid #3C0000;
-  border-radius: 0px 0px 30px 30px;
-  box-shadow: 0px 2px 4px rgb(0 0 0 / 25%), inset 0px -5px 4px rgb(0 0 0 / 25%);
+background-color: #fff;
+border: 1px solid #3C0000;
+border-radius: 0px 0px 30px 30px;
+box-shadow: 0px 2px 4px rgb(0 0 0 / 25%), inset 0px -5px 4px rgb(0 0 0 / 25%);
 }
 .market-det .expand-more-tab i {
-  color: #3C0000;
-  margin: 8% 46%;
-  font-size: 30px;
+color: #3C0000;
+margin: 8% 46%;
+font-size: 30px;
 }
 .expand-more-btn {
- padding: 2%;
+padding: 2%;
 }
 .market-sub-tab h5 {
-  font-size: 16px;
-    font-weight: 600;
-    margin: 5% 7%;
+font-size: 16px;
+  font-weight: 600;
+  margin: 3% 0% 8%;
 }
 .stock-cards {
-  margin: 3%;
+margin: 3%;
 }
 .stock-name {
-  margin: 32% 15%;
+margin: 32% 15%;
 }
 .current-value {
-  margin: 43% 0;
+margin: 43% 0;
 }
 .negative {
-  font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-    color: #BD0000 !important;
-    margin-top: 33%;
+font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #BD0000 !important;
+  margin-top: 33%;
 }
 .positive {
-  color: #04BC00 !important;
-  font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-    margin-top: 33%;
+color: #04BC00 !important;
+font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 33%;
 }
 .stock-news {
-  margin-left: 3%;
-  margin-top: 5%;
+margin-left: 3%;
+margin-top: 5%;
 }
 .view-more {
-  margin: -3% 3%;
-  float: right;
-  font-family: Poppins;
+margin: -3% 3%;
+float: right;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -812,17 +909,20 @@ text-align: center;
 color: #E3170A;
 }
 .stock-news p {
-  color: #3C0000;
-    margin: 4% 1%;
-    letter-spacing: 2px;
-    font-size: 15px;
+color: #3C0000;
+  margin: 4% 1%;
+  letter-spacing: 2px;
+  font-size: 15px;
 }
 .news-tail .positive {
-  letter-spacing: 0.2px;
+letter-spacing: 0.2px;
 }
 .news-tail .negative {
-  letter-spacing: 0.2px;
+letter-spacing: 0.2px;
 }
 .news-tail .rate {
-  font-weight: 600;
+font-weight: 600;
+}
+.logo-section a {
+color: #fff;
 }

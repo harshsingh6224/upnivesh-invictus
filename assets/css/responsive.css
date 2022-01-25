@@ -10,7 +10,10 @@
         padding-bottom: 2%;
     }
     .reward-tab p {
-        margin: 1% 22% 1% 28%;
+        margin: 1% 32% 1% 32%;
+    }
+    .reward-sub {
+        margin: 2% 27% 4% 24%;
     }
     .market-tab .market-brief {
         width: 97%;
@@ -22,13 +25,12 @@
     }
     .commit-tab h4 {
         margin-right: 30%;
-        font-size: 28px;
     }
     .commit-tab h2 {
         margin-left: -35%;
     }
     .commit-tab p {
-        margin: 2% 21% 2% 20%;
+        margin: 2% 25% 2% 25%;
     }
     .faq-basic {
         width: 100%;
@@ -44,13 +46,10 @@
         min-height: 782px;
     }
     .chatButton {
-        margin: 5.5% -10%
+        margin: 6% 5%;
     }
     .faq-basic p {
         padding: 0 5%;
-    }
-    .faq .faq-text {
-        margin: -10% -3% 2% 8%;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -58,7 +57,7 @@
         display: none;
     }
     .form {
-        margin: 30px 10px;
+        margin: 30px -28px 30px 16px;
     }
     .main-tab {
         padding: 0 1%;
@@ -98,10 +97,11 @@
     }
     .reward-tab p {
         margin: 4% 4% 4% 10%;
+        font-size: 22px;
     }
     .market-tab .form-input {
-        width: 100%;
-        margin: unset;
+        width: 85%;
+        margin: 2% 0%
     }
     .market-tab .market-brief {
         width: 94%;
@@ -119,7 +119,7 @@
     }
     .stock-value {
         float: right;
-        margin-top: -9%;
+        margin: -17% 4%;
     }
     .current-value {
         margin: -17% 0 0 33%;
@@ -128,14 +128,14 @@
         margin-left: 3px;
     }
     .stock-card-news {
-        width: 62%;
-        margin: 3% 1% 3% 18.5%;
+        width: 70%;
+        margin: 3% 1% 3% 13.5%;
     }
     .market-brief h4 {
         margin-left: 6%;
     }
     .market-brief .startedButton {
-        margin: 3% 0 3% 3%;
+        margin: 6% 0 6% 3%;
         padding: 1px 9px;
     }
     .market-links {
@@ -161,16 +161,19 @@
         float: unset;
         margin: 4%;
         font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 28px;
     }
     .commit-tab h2 {
-        font-size: 21px;
-        margin: -12% 0% 10% 33%;
+        font-size: 20px;
+        margin: -16% 0% 10% 35%;
+        letter-spacing: 1px;
     }
     .commit-tab p {
-        margin: 1% 9%;
+        margin: 6% 9%;
     }
     .commit-tab .infoButton {
-        margin: 8% 0 9% 9%;
+        margin: 9% 0 5% 9%;
     }
     .faq-outer-tab {
         margin: 8% -3%;
@@ -180,7 +183,8 @@
         margin: 5% 2% 4% 3%;
     }
     .faq-basic {
-        width: 97%;
+        width: 92%;
+        margin: 8% 4%;
     }
     .footer-tab {
         padding: 8%;
@@ -196,7 +200,7 @@
     }
     .chatButton {    
         padding: 3%;
-        margin: -42% -32%;
+        margin: 0% 8% 5%;
     }
     .mobile-container {
         display: block;
@@ -204,5 +208,36 @@
     .form-popup {
         width: 74%;
         top: 17%;
+    }
+    .topnav-mobile img {
+        width: 33%;
+    }
+    .sub-tabs {
+        padding-bottom: 32px;
+    }
+    .invest-tab {
+        padding: 2% 8%;
+    }
+    .view-more {
+        margin-top: -10%;
+    }
+    .stock-name {
+        margin: 9% 5%;
+    }
+    .stock-cards {
+        margin: 8% 3% 12%;
+    }
+    .add-to-icon i {
+        margin: 6%;
+    }
+    .news-head {
+        margin: 14% 5%;
+    }
+    .commit-tab {
+        margin-top: 15%;
+    }
+    .faq-tab-auto .startedButton {
+        margin-left: 20%;
+        margin-top: 2%;
     }
 }
