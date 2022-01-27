@@ -231,10 +231,6 @@ padding: 1%;
 margin: 5% 5%;
 z-index: 999;
 }
-.success-tab {
-/*  background: #C4C4C4;
-padding: 1% 1%; */
-}
 .success-tab h3 {
 font-family: Poppins;
 font-weight: 600;
@@ -849,7 +845,7 @@ color: #3C0000;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 24px;
+line-height: 0px;
 }
 .market-det .expand-more-tab {
 background-color: #fff;
@@ -925,4 +921,70 @@ font-weight: 600;
 }
 .logo-section a {
 color: #fff;
+}
+
+/*............. New-to-investment .............*/
+
+.grow-tab img {
+width: 69%;
+  margin: 4% 16% 12%;
+  border-radius: 30px;
+}
+.new-to-invest-home .reward-tab p {
+margin: 0% 35% -2% 40%;
+letter-spacing: 1px;
+}
+.new-info {
+position: absolute;
+  margin: -15% 31% -4%;
+  padding: 4px 58px;
+  background: #FFFFFF;
+  border: 2px solid #E3170A;
+  box-sizing: border-box;
+  z-index: 1000;
+  border-radius: 30px;
+}
+.learn-about-tab {
+margin-top: -4%;
+background-color: #fff;
+}
+.new-to-invest-home .learn-about-tab .faq-basic {
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+width: 50%;
+margin: 2% 25%;
+}
+.new-to-invest-home .faq .faq-text {
+margin: -1% 25%;
+padding: unset;
+border: 2px solid #FFBE0B;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.mutual-img img {
+border-radius: 30px;
+padding: 6px;
+}
+.learn-about-tab li {
+padding: 3%;
+  color: #3C0000;
+}
+.new-to-invest-home .reward-faq {
+margin: 0% 27% 0% 14% !important;
+}
+.invest-guide-tab {
+border: 2px solid saddlebrown;
+  border-radius: 20px;
+  margin: 2% 17%;
+}
+.invest-head {
+text-align: center;
+  background: #fff;
+  margin: -1.4% 43% 2%;
+  border-radius: 10px;
+  padding: 5px;
+  color: #3C0000;
+}
+.invest-img img {
+
 }
