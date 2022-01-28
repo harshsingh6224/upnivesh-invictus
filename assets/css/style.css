@@ -925,7 +925,7 @@ color: #fff;
 
 /*............. New-to-investment .............*/
 
-.grow-tab img {
+.grow-tab .grow-img {
 width: 69%;
   margin: 4% 16% 12%;
   border-radius: 30px;
@@ -937,16 +937,15 @@ letter-spacing: 1px;
 .new-info {
 position: absolute;
   margin: -15% 31% -4%;
-  padding: 4px 58px;
   background: #FFFFFF;
-  border: 2px solid #E3170A;
   box-sizing: border-box;
   z-index: 1000;
   border-radius: 30px;
 }
 .learn-about-tab {
-margin-top: -4%;
-background-color: #fff;
+margin-top: -2%;
+  background-color: #fff;
+  padding-bottom: 1%;
 }
 .new-to-invest-home .learn-about-tab .faq-basic {
 box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.15);
@@ -986,5 +985,32 @@ text-align: center;
   color: #3C0000;
 }
 .invest-img img {
-
+margin: 3% 29% 1%;
+border-radius: 30px;
+}
+.invest-text {
+text-align: center;
+color: #3C0000;
+}
+.invest-img-1 img {
+margin: 3% 37% 1%;
+  border-radius: 30px;
+}
+.or-line {
+width: 60%;
+border-top: 2px solid #eee;
+margin-bottom: 40px;
+}
+.invest-or {
+z-index: 1000;
+position: absolute;
+background: #6F523B;
+border-radius: 10px;
+color: #fff;
+margin: -1% 49%;
+font-weight: 600;
+padding: 5px;
+}
+.faq-head {
+margin: 0% 35% 0% 47% !important;
 }
